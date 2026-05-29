@@ -31,8 +31,6 @@ To install the extension in Google Chrome or another Chromium-based browser:
 - Screenshot 2: Definition pop-up overlay
   ![Screenshot 2](screenshots/definition.png)
 
-> Replace the placeholder image paths above with your actual screenshots.
-
 ## Notes
 
 - The extension uses a public dictionary API to fetch meanings for selected words.
