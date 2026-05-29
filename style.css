@@ -2,6 +2,7 @@
     position: absolute;
     left: 50%; 
     top: 50%;
+    color: black;
 }
 .dict-extn-button {
     height: 32px; 
