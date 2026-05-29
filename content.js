@@ -8,7 +8,7 @@ function handleSelection() {
   // Small delay ensures Chrome registers the final selection layout
   setTimeout(() => {
     const selection = window.getSelection()
-    const selectedString = selection.toString().trim();
+    const selectedString = selection.toString().trim().toLowerCase();
     
     
     if (selectedString.length > 0) {
