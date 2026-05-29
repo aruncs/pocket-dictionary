@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Pocket Dictionary",
+  "version": "1.0",
+  "description": "A lightweight, no-nonsense dictionary that lives in your browser. Highlight any word on any webpage to get instant, distraction-free definitions in a clean pop-up.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["style.css"],
+      "js": ["content.js"]
+    }
+  ],
+   "web_accessible_resources": [
+    {
+      "resources": ["content.html", "icons/icon32.png", "dict-icon.png"],
+      "matches": ["<all_urls>"]
+    }
+   ]
+}
