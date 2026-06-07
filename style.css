@@ -49,6 +49,7 @@
 }
 .dict-extn-result.hidden {
     opacity: 0;
+    pointer-events: none;
 }
 .dict-extn-word {
     margin: 0 0 2px 0; 
