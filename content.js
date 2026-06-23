@@ -18,11 +18,12 @@ function handleSelection() {
 
       container.style.left = `${window.scrollX + rect.right + 8}px`;
       container.style.top = `${window.scrollY + rect.top}px`;
-      container.style.zIndex = '100'
       button.classList.remove('hidden')
+      container.classList.remove('hidden')
 
     } else {
       button.classList.add('hidden')
+      container.classList.add('hidden')
     }
   }, 10);
 }
